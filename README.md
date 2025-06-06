@@ -45,17 +45,11 @@ Ambele cazuri trebuie implementate în limbaj de asamblare x86 (fișiere `.s`), 
 ---
 
 ## Structura proiectului
-
 ├── README.md
-
-├──memory_management
-
-    ├── 1D_memory.s 
-
-    ├── 2D_memory.s 
-    
-    ├── input.txt  
-
+└── memory_management
+├── 1D_memory.s
+├── 2D_memory.s
+└── input.txt
 
 - **1D_memory.s**  
   Conține codul pentru partea unidimensională (ADD, GET, DELETE, DEFRAGMENTATION).  
@@ -139,7 +133,6 @@ Ambele cazuri trebuie implementate în limbaj de asamblare x86 (fișiere `.s`), 
    - `2` → **GET**  
    - `3` → **DELETE**  
    - `4` → **DEFRAGMENTATION**  
-   - `5` → **CONCRETE** (scanare de fișiere existente pe disc)
 
 3. **Formatul inputului**  
    - Prima linie: `O` = numărul de operații.  
