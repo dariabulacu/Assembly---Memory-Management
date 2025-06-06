@@ -45,11 +45,6 @@ Ambele cazuri trebuie implementate în limbaj de asamblare x86 (fișiere `.s`), 
 ---
 
 ## Structura proiectului
-├── README.md
-└── memory_management
-├── 1D_memory.s
-├── 2D_memory.s
-└── input.txt
 
 - **1D_memory.s**  
   Conține codul pentru partea unidimensională (ADD, GET, DELETE, DEFRAGMENTATION).  
